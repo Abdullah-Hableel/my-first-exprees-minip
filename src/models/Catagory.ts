@@ -1,9 +1,9 @@
-import mongoose, { model, Model, Schema } from "mongoose";
+import mongoose, { model, Schema } from "mongoose";
 
 const categorySchema = new Schema(
   {
     name: { type: String, required: true },
-    books: [{ type: mongoose.Schema.ObjectId, ref: "Books" }],
+    books: [{ type: mongoose.Schema.ObjectId, ref: "Book" }],
   },
   {
     timestamps: true,

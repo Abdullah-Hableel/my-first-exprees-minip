@@ -4,7 +4,7 @@ const AuthorSchema = new Schema(
   {
     name: { type: String, required: true },
     contry: { type: String, required: true },
-    books: [{ type: mongoose.Schema.ObjectId, ref: "Books" }],
+    books: [{ type: mongoose.Schema.ObjectId, ref: "Book" }],
   },
   {
     timestamps: true,
