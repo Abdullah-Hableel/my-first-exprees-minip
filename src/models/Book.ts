@@ -11,6 +11,6 @@ const BookSchema = new Schema(
   }
 );
 
-const Author = model("Book", BookSchema);
+const Book = model("Book", BookSchema);
 
-export default Author;
+export default Book;

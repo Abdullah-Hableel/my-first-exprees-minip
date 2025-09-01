@@ -10,6 +10,6 @@ const categorySchema = new Schema(
   }
 );
 
-const Author = model("Category", categorySchema);
+const Category = model("Category", categorySchema);
 
-export default Author;
+export default Category;
